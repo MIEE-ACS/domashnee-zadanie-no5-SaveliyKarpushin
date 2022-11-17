@@ -1,0 +1,20 @@
+﻿<Window x:Class="ДЗ_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ДЗ_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="умножить" HorizontalAlignment="Left" Margin="146,204,0,0" VerticalAlignment="Top" Height="64" Width="96" Click="Button_Click"/>
+        <Button Content="разделить" HorizontalAlignment="Left" Margin="282,204,0,0" VerticalAlignment="Top" Height="64" Width="96" Click="Button_Click_1"/>
+        <Button Content="сложить" HorizontalAlignment="Left" Margin="434,204,0,0" VerticalAlignment="Top" Height="64" Width="96" Click="Button_Click_2"/>
+        <Button Content="вычесть" HorizontalAlignment="Left" Margin="584,204,0,0" VerticalAlignment="Top" Height="64" Width="96" Click="Button_Click_3"/>
+        <TextBox x:Name="TX1" HorizontalAlignment="Left" Margin="179,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" Height="48"/>
+        <TextBox x:Name="TX2" HorizontalAlignment="Left" Margin="427,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" Height="48"/>
+        <TextBox x:Name="RES" HorizontalAlignment="Left" Margin="289,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206" Height="48" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="C" Content="C" HorizontalAlignment="Left" Margin="146,319,0,0" VerticalAlignment="Top" Height="64" Width="96" Click="C_Click"/>
+
+    </Grid>
+</Window>
